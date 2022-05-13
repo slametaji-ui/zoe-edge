@@ -1,0 +1,13 @@
+{
+    "name": "Zoe Edge",
+    "version": "1.0.0",
+    "description": "Your New Tab is Beautifull",
+    "manifest_version": 3,
+    "author": "@s.aji_inst",
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    },
+    "permissions": [
+        "storage"
+    ]
+}

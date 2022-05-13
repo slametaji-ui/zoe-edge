@@ -1,0 +1,9 @@
+var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+var d = new Date();
+var day = days[d.getDay()];
+var date = d.getDate();
+var month = months[d.getMonth()];
+var year = d.getFullYear();
+var x = document.getElementById("date");
+x.innerHTML = day + ", " + date + " " + month + " " + year;
